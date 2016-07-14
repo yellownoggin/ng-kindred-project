@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Angular Material - Starter App</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,400italic,600,700,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700' rel='stylesheet' type='text/css'>
+    <script src="https://use.fontawesome.com/cfe782463b.js"></script>
+
+    <link rel="stylesheet" href="../bower_components/angular-material/angular-material.css" />
+    <link rel="stylesheet" href="../node_modules/angular-jk-carousel/dist/jk-carousel.css" />
+
+
+    <!-- build:css css/lib.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="/bower_components/angular-material/angular-material.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css css/app.css -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="/src/client/css/common.css">
+    <link rel="stylesheet" href="/src/client/css/dynamic-header-simple.css">
+    <link rel="stylesheet" href="/src/client/css/gd-tb-mn-sp.css">
+    <link rel="stylesheet" href="/src/client/css/layout.css">
+    <link rel="stylesheet" href="/src/client/css/main.css">
+    <link rel="stylesheet" href="/src/client/css/style.css">
+    <link rel="stylesheet" href="/src/client/css/z-angular-material-toolbar.css">
+    <link rel="stylesheet" href="/src/client/css/z-blog-home.css">
+    <link rel="stylesheet" href="/src/client/css/z-common-layout-workshop.css">
+    <link rel="stylesheet" href="/src/client/css/z-dh-simple-gd.css">
+    <link rel="stylesheet" href="/src/client/css/z-funnel-body.css">
+    <link rel="stylesheet" href="/src/client/css/z-google-analytics-hero.css">
+    <link rel="stylesheet" href="/src/client/css/z-tripwiremag.css">
+    <link rel="stylesheet" href="/src/client/css/zdk-sn-w-mn-links-auto.css">
+    <!-- endinject -->
+    <!-- endbuild -->
+
+
+    <style type="text/css">
+        /**
+         * Hide when Angular is not yet loaded and initialized
+         */
+
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak {
+            display: none !important;
+        }
+    </style>
+
+</head>
+
+<body ng-app="ngKindred" ng-controller="NgkindredController as am" layout="column" ng-cloak>
+
+
+    <ngkindred-shell ng-show="am.usengKindredShell"></ngkindred-shell>
+    <ngkindred-page-templates ng-show="am.usePageTemplatesShell"></ngkindred-page-templates>
+
+
+
+
+
+
+    <!-- build:js js/lib.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/angular/angular.js"></script>
+    <script src="/bower_components/angular-messages/angular-messages.js"></script>
+    <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/bower_components/angular-animate/angular-animate.js"></script>
+    <script src="/bower_components/angular-aria/angular-aria.js"></script>
+    <script src="/bower_components/angular-material/angular-material.js"></script>
+    <script src="/bower_components/angular-animate-change/release/angular-animate-change.js"></script>
+    <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+
+    <!-- build:js js/app.js -->
+    <!-- inject:js -->
+    <script src="/src/client/app/ngkindred.module.js"></script>
+    <script src="/src/client/app/dkpagetemplates/dkpagetemplates.module.js"></script>
+    <script src="/src/client/app/layout/ngkindred.layout.module.js"></script>
+    <script src="/src/client/app/contents/vcard-app/vcard-app.module.js"></script>
+    <script src="/src/client/app/dkpagetemplates/dkpagetemplates-layout/dkpagetemplates.layout.module.js"></script>
+    <script src="/src/client/app/contents/dynamic-header-simple-gd/dh-simple/dh-simple.module.js"></script>
+    <script src="/src/client/app/menu-link-directive.js"></script>
+    <script src="/src/client/app/menu.factory.js"></script>
+    <script src="/src/client/app/ngkindred.config.js"></script>
+    <script src="/src/client/app/ngkindred.controller.js"></script>
+    <script src="/src/client/app/ngkindred.routes.js"></script>
+    <script src="/src/client/app/dkpagetemplates/dkpagetemplates.routes.js"></script>
+    <script src="/src/client/app/layout/ngkindred.directive.js"></script>
+    <script src="/src/client/app/layout/sidenav.controller.js"></script>
+    <script src="/src/client/app/ngkindred-page-templates/ngkindred-page-templates.directive.js"></script>
+    <script src="/src/client/app/contents/vcard-app/vcard-app.routes.js"></script>
+    <script src="/src/client/app/dkpagetemplates/dkpagetemplates-layout/dkpagetemplates-shell.directive.js"></script>
+    <script src="/src/client/app/contents/dynamic-header-simple-gd/dh-simple/dh-simple-mock.routes.js"></script>
+    <script src="/src/client/app/contents/dynamic-header-simple-gd/dh-simple/dh-simple.directive.js"></script>
+    <!-- endinject -->
+
+    <!-- inject:templates:js -->
+    <!-- endinject -->
+    <!--endbuild -->
+
+
+</body>
+
+</html>

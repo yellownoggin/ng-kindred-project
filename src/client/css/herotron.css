@@ -1,0 +1,100 @@
+/*bs home css*/
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.thumbnail {
+    display: block;
+    /*padding: 4px;*/
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+/*end bs home css*/
+
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+.background-fff {
+    background: #ffffff;
+}
+.font-20 {
+    font-size: 20px;
+}
+.main {
+    min-height: 100% !important;
+}
+.md-success-5cb85c {
+    color: #fff !important;
+    background-color: #5cb85c !important;
+    max-height: 42px;
+}
+.md-success-5cb85c a {
+    color: #fff !important;
+}
+
+.md-toolbar-inverse-222 {
+    background-color: #222 !important;
+    border-color: #080808 !important;
+}
+.herotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+/*customizing input container*/
+md-input-container.herotron-input {
+    margin: 18px 0  0;
+}
+
+md-input-container.herotron-input .md-input {
+        border-width: 0 0 2px 0;
+            border-color:rgba(255,255,255,0.87);
+            color: rgba(255,255,255,0.87) !important;
+}
+md-input-container.herotron-input .md-input.ng-empty {
+        border-width: 0 0 2px 0;
+        color: rgba(255,255,255,0.87) !important;
+}
+md-input-container.herotron-input.md-input-focused .md-input{
+        border-width: 0 0 2px 0;
+            border-color:#fff;
+            color:#fff !important;
+}
+md-input-container.herotron-input.md-input-focused label {
+
+            color:#fff !important;
+}
+md-input-container.herotron-input label {
+            color: rgba(255,255,255,0.87) !important;
+}
+/* end customizing input container*/
+
+
+/**
+ * @media - 600
+ *
+ */
+@media screen and (min-width: 600px) {
+    .herotron {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+}

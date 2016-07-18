@@ -8,10 +8,4 @@ var ngKindred;
     function initRouter($locationProvider, $urlRouterProvider, $stateProvider) {
         $urlRouterProvider.otherwise('/');
     }
-    function initTheme($mdThemingProvider) {
-        $mdThemingProvider
-            .theme('default')
-            .primaryPalette('blue-grey')
-            .accentPalette('red');
-    }
 })(ngKindred || (ngKindred = {}));

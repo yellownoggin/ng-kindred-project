@@ -20,12 +20,12 @@ namespace ngKindred {
             $urlRouterProvider.otherwise('/');
 
         }
-
-        function initTheme($mdThemingProvider: angular.material.IThemingProvider) {
-
-            $mdThemingProvider
-                .theme('default')
-                .primaryPalette('blue-grey')
-                .accentPalette('red');
-        }
+        // TODO:   config proper theme for site
+        // function initTheme($mdThemingProvider: angular.material.IThemingProvider) {
+        //
+        //     $mdThemingProvider
+        //         .theme('default')
+        //         .primaryPalette('blue-grey')
+        //         .accentPalette('red');
+        // }
 }
